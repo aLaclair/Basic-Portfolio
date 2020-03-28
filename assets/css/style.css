@@ -1,0 +1,30 @@
+#tealhead {
+        background-color:#4aaaa5;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        color: white;
+        text-align: center;
+        height:50px;
+        width:250px;
+        padding: 25px;
+        line-height: 50px;
+}
+
+header {
+        padding:10px;
+
+}
+
+#about {
+        float: right;
+        display: block;
+}
+
+#portfolio {
+        float: right;
+        display: block;
+}
+
+#contact {
+        float: right;
+        display: block;
+}
