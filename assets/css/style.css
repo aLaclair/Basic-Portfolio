@@ -1,30 +1,81 @@
-#tealhead {
-        background-color:#4aaaa5;
-        font-family: 'Georgia', Times, Times New Roman, serif;
-        color: white;
+body {
+        margin: 0px;
+        background-color: lightgray;
+}
+
+nav {
+        background-color: #ffffff;
+        overflow: hidden;
+        position: relative;
+        height: 96px;
+
+}
+
+nav a {
+        float: right;
         text-align: center;
-        height:50px;
-        width:250px;
-        padding: 25px;
-        line-height: 50px;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        background-color: #ffffff;
+        color: #777777;
+        position: relative;
+        top: 15px;
+        left: 120px;
 }
 
-header {
-        padding:10px;
-
+ul {
+        list-style-type: none;
+        margin-left: 100px;
 }
 
-#about {
-        float: right;
-        display: block;
-}
-
-#portfolio {
-        float: right;
-        display: block;
+nav h1 {
+        width: 200px;
+        float: left;
+        margin-left: 20px;
+        padding: 10px;
+        background-color: #4aaaa5;
+        text-align: center;
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        position: absolute;
+        top: 0px;
+        left: 210px;
+        height: 60px;
+        line-height: 60px;
 }
 
 #contact {
-        float: right;
-        display: block;
+        border-right: 1px solid lightgray;
+}
+
+#portfolio {
+        border-right: 1px solid lightgray;
+}
+
+div {
+        padding: 25px;
+        background-color: white;
+        margin-top: 25px;
+        max-width: 935px;
+        margin: auto;
+        margin-top: 50px;
+}
+
+div h1 {
+        color: #4aaaa5;
+}
+
+.navbar {
+        max-width: 960px;
+}
+
+footer {
+        text-align: center;
+        background-color: #666666;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        border-top: 5px solid #4aaaa5;
 }
